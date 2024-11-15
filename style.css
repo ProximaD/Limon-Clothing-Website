@@ -83,7 +83,14 @@ img{
   transition: box-shadow .4s;
 }
 
-
+.nav{
+  position: relative;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
 
 
 
