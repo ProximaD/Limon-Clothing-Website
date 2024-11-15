@@ -35,3 +35,37 @@
 }
 
 /*========== BASE ==========*/
+*{
+  box-sizing: border-box;
+  padding=0;
+  margin=0;
+}
+
+body{
+  font-family: var(--body-font);
+  font-size: var(--normal-font);
+  background-color: var(--white-color);
+  color: var(--black-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
