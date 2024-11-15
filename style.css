@@ -102,7 +102,19 @@ img{
   cursor: pointer;
 }
 
-
+/*Navigation for mobile devices*/
+@media screen and (max-width: 1150px){
+  .nav__menu{
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: var(--white-color);
+    width: 100%;
+    padding-block: 4.5rem;
+    box-shadow: 0 8px 16px hsla(o, 0%, .1);
+    transition: top .4s;
+  }
+}
 
 
 
