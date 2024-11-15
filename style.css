@@ -62,8 +62,26 @@ img{
   height: auto;
   }
 
+/*========== REUSABLE CSS CLASSES ==========*/
+.container{
+  max-width: 1120px;
+  margin-inline: 1.5rem;
+}
 
+.main{
+  overflow: hidden;
+}
 
+/*========== HEADER AND NAVIGATION ==========*/
+.header{
+  position: fixed;
+  width: 100%;
+  top:0;
+  left:0;
+  background-color: var(--white-color);
+  z-index: var(z-fixed);
+  transition: box-shadow .4s;
+}
 
 
 
