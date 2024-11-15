@@ -6,6 +6,14 @@
   --header-height: 3.5rem;
 
 /*========== Colors ==========*/
-/*Color mode HSL (Hue, Saturation, Ligtness)*/
+/*Color mode HSL (Hue, Saturation, Lightness)*/
 --white-color: hsl(0, 0%, 96%);
 --black-color: hsl(0, 0%, 0%);
+
+/*========== Font and Typography ==========*/
+/*.5rem = 8px | 1rem = 16px...*/
+--body-font: "Space Grotesk", serif;
+--biggest-font-size: 3rem;
+--normal-font-size: .938rem;
+
+/*========== Font weight ==========*/
