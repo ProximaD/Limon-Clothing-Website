@@ -17,3 +17,10 @@
 --normal-font-size: .938rem;
 
 /*========== Font weight ==========*/
+--font-regular: 400;
+--font-bold: 700;
+
+/*========== z index ==========*/
+--z-tooltip: 10;
+--z-fixed: 100;
+}
