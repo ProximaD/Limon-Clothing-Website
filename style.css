@@ -91,7 +91,16 @@ img{
   align-items: center;
 }
   
+.nav__logo{
+  color: var(--black-color);
+  font-weight: var(--font-bold);
+}
 
+.nav__toggle,
+.nav__close{
+  font-size: 1.5rem;
+  cursor: pointer;
+}
 
 
 
