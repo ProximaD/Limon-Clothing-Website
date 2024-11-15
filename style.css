@@ -2,3 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Space+Grotesk&display=swap');
 
 /*========== VARIABLE CSS ==========*/
+:root{
+  --header-height: 3.5rem;
+
+/*========== Colors ==========*/
+/*Color mode HSL (Hue, Saturation, Ligtness)*/
+--white-color: hsl(0, 0%, 96%);
+--black-color: hsl(0, 0%, 0%);
