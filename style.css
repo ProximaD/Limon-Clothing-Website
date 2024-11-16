@@ -138,7 +138,10 @@ img{
   right: 1.5rem;
 }
 
-
+/*Show menu*/
+.show-menu{
+  top:0;
+}
 
 
 
