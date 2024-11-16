@@ -11,3 +11,8 @@ if(navToggle){
 }
 
 /*Hide menu*/
+if(navClose){
+      navClose.addEventListerner('click'), () => {
+            navMenu.classList.remove('show-menu')
+      })
+}
