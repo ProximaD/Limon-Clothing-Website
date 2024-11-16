@@ -123,7 +123,14 @@ img{
   row-gap: 1.5rem;
 }
 
+.nav__link{
+  color:var(--black-color);
+  font-weight:var(--font-bold);
+}
 
+.nav__link:hover{
+  text-decoration: underline;
+}
 
 
 
