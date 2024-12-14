@@ -147,6 +147,19 @@ img{
     transition:.5s
   }
 }
+
+.nav__item{
+  margin-bottom: var(--mb-4);
+}
+
+.nav__link{
+  color:var(--black-color);
+  font-weight:var(--font-bold);
+}
+
+.nav__link:hover{
+  text-decoration: underline;
+}
   
 .nav__logo{
   color: var(--first-color-alt);
@@ -159,23 +172,6 @@ img{
   cursor: pointer;
 }
 
-
-
-.nav__list{
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  row-gap: 1.5rem;
-}
-
-.nav__link{
-  color:var(--black-color);
-  font-weight:var(--font-bold);
-}
-
-.nav__link:hover{
-  text-decoration: underline;
-}
 
 .nav__close{
   position: absolute;
