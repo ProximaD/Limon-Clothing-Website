@@ -25,17 +25,22 @@
 --small-font-size: .75rem;
 
 @media screen and (min-width: 768px){
+  :root{
   --big-font-size:6rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
   --normal-font-font: 1rem;
   --small-font-size: .813rem;
   }
+}
 
+/*========================================= MARGINS ============================================*/
+  --mb-1: .5rem;
+  --mb-2: 1rem;
+  --mb-3: 1.5rem;
+  --mb-4: 2rem;
+  MM
 
-/*========== Font weight ==========*/
---font-regular: 400;
---font-bold: 700;
 
 /*========== z index ==========*/
 --z-tooltip: 10;
