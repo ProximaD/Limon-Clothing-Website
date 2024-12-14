@@ -9,8 +9,12 @@
 
 /*========== Colors ==========*/
 /*Color mode HSL (Hue, Saturation, Lightness)*/
---white-color: hsl(0, 0%, 96%);
---black-color: hsl(0, 0%, 0%);
+  --first-color: #FF1CC0;
+  --first-color-alt: #B131FA;
+  --white-color: #FAFAFF;
+  --black-color: #101010;
+  --black-color-alt: #606060;
+  --purple-color: #4A0074;
 
 /*========== Font and Typography ==========*/
 /*.5rem = 8px | 1rem = 16px...*/
