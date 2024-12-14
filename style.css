@@ -8,7 +8,6 @@
   --font-bold: 700;
 
 /*========== Colors ==========*/
-/*Color mode HSL (Hue, Saturation, Lightness)*/
   --first-color: #FF1CC0;
   --first-color-alt: #B131FA;
   --white-color: #FAFAFF;
@@ -19,8 +18,11 @@
 /*========== Font and Typography ==========*/
 /*.5rem = 8px | 1rem = 16px...*/
 --body-font: "Space Grotesk", serif;
---biggest-font-size: 3rem;
---normal-font-size: .938rem;
+--big-font-size:3rem;
+--h1-font-size: 1.5rem;
+--h2-font-size: 1.25rem;
+--normal-font-font: .938rem;
+--small-font-size: .75rem;
 
 /*========== Font weight ==========*/
 --font-regular: 400;
