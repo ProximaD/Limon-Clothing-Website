@@ -4,6 +4,8 @@
 /*========== VARIABLE CSS ==========*/
 :root{
   --header-height: 3.5rem;
+  --font-semi-bold: 600;
+  --font-bold: 700;
 
 /*========== Colors ==========*/
 /*Color mode HSL (Hue, Saturation, Lightness)*/
