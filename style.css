@@ -136,7 +136,7 @@ img{
 }
   
 .nav__logo{
-  color: var(--black-color);
+  color: var(--first-color-alt);
   font-weight: var(--font-bold);
 }
 
