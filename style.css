@@ -146,17 +146,16 @@ img{
   cursor: pointer;
 }
 
-/*Navigation for mobile devices*/
-@media screen and (max-width: 1150px){
+@media screen and (max-width: 768px){
   .nav__menu{
     position: fixed;
-    top:-100%;
-    left:0;
+    top: var(--header-height);
+    right:-100%;
+    width: 80%;
+    height: 100%;
+    padding: 2rem;
     background-color: var(--white-color);
-    width: 100%;
-    padding-block: 4.5rem;
-    box-shadow: 0 8px 16px hsla(o, 0%, .1);
-    transition: top .4s;
+    transition:.5s
   }
 }
 
