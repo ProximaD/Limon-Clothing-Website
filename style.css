@@ -134,17 +134,6 @@ img{
   justify-content: space-between;
   align-items: center;
 }
-  
-.nav__logo{
-  color: var(--first-color-alt);
-  font-weight: var(--font-bold);
-}
-
-.nav__toggle,
-.nav__close{
-  font-size: 1.5rem;
-  cursor: pointer;
-}
 
 @media screen and (max-width: 768px){
   .nav__menu{
@@ -158,6 +147,19 @@ img{
     transition:.5s
   }
 }
+  
+.nav__logo{
+  color: var(--first-color-alt);
+  font-weight: var(--font-bold);
+}
+
+.nav__toggle,
+.nav__close{
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
 
 .nav__list{
   text-align: center;
