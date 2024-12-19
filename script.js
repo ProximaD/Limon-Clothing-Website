@@ -1,31 +1,30 @@
-/*=============== MENU ===============*/
-const navMenu = document.getElementById('nav-menu'),
-      navToggle = document.getElementById('nav-toggle'),
-      navClose = document.getElementById('nav-close')
+/*========================================= SHOW MENU ============================================*/
+const showMenu = (toggleId, navId) => {
+    const toggle = document.getElementById(toggleId),
+      nav = document.getElementById(navId)
+  
+  
+    if(toggle && nav){
+      toggle.addEventListener('click', () =>{
+        nav.classList.toggle('show')
+      })
+    }
+  }
+  
+  showMenu('nav-toggle', 'nav-menu')
 
-
-/* Show Menu  */
-if(navToggle){
-    navToggle.addEventListener('click', () =>{
-        navMenu.classList.add('show-menu')
-    })
-}
-
-
-/* Hide Menu */
-if(navClose){
-    navClose.addEventListener('click', () =>{
-        navMenu.classList.remove('show-menu')
-    })
-}
-
-/*=============== REMOVE MENU MOBILE ===============*/
+/*========================================= REMOVE MOBILE MENU ============================================*/
 const navLink = document.querySelectorAll('.nav__link')
 
-const linkAction = () =>{
-    const navMenu = document.getElementById('nav-menu')
-    //When we click on each nav__link, we remove the show-menu class
-    navMenu.classList.remove('show-menu')
+function linkAction(){
+
+  //Activate link
+  navLink.forEach(n=> n.classList.remove('active'))
+  this.classList.add('active')
+
+  //Remove mobile menu
+  const navMenu = document.getElementById('nav-menu')
+  navMenu.classList.remove('show')
 }
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
