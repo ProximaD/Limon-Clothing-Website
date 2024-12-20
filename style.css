@@ -254,3 +254,85 @@ img{
 .button:hover{
 background-color: var(--first-color-alt);
 }
+
+/*========================================= FEATURED PRODUCTS ============================================*/
+.featured__container{
+  row-gap: 2rem;
+}
+
+.featured__product{
+  transition: .3s;
+}
+
+.featured__product:hover{
+  transform: translateY(-.5rem);
+}
+
+.featured__box{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: var(--white-color-alt);
+}
+
+.featured__new{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--first-color-alt);
+  color: var(--black-color);
+  padding: .3rem .75rem;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-semi-bold);
+}
+
+.featured__data{
+  text-align: center;
+}
+
+.featured__name{
+  margin-bottom: var(--mb-1);
+  text-transform: uppercase;
+  font-size: var(--normal-font-font);
+}
+
+.featured__price{
+  color: var(--black-color);
+  font-weight: var(--font-semi-bold);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
