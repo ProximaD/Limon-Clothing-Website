@@ -1,6 +1,6 @@
 # Sandra Lavenda's Portfolio
 
-#Limoon Clothing Website
+# Limoon Clothing Website
 
 Responsive-clothing-website with:
 1. Beautiful clothing Website using HTML5, CSS3 and JAVASCRIPT. 
